@@ -33,5 +33,3 @@ while program_start != "quit":
         print(tasks_finished)
     else:
         print("Please enter a valid input")
-        print(menu)
-    
