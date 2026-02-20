@@ -14,7 +14,9 @@ while program_start != "quit":
     if program_start == 'add tasks':
         task = input("What is your task: ")
         tasks.append(task)
-        print(f'Current Tasks: {tasks}')
+        for task in tasks:
+            print(f'ID: {enumerate(tasks)}')
+            print(f'Current Tasks: {tasks}')
     elif program_start == "show tasks":
         print(f'Current Tasks: {tasks}')
     elif program_start == "remove task": 
