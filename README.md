@@ -1,4 +1,6 @@
 # CLI To-Do List (Python)
+## Project Url: 
+https://github.com/devinsanghvi910-commits/CLI-Task-Manager
 ## Description
 This is a simple command-line to-do list application written in Python.
 It allows users to add tasks, remove tasks, view all current tasks, and quit the program using a text-based menu.
